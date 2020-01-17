@@ -1,0 +1,23 @@
+{
+    "name": "qimaohong/auth-login",
+    "description": "Login",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qimh",
+            "email": "qimh0203@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=php7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AuthLogin\\": "src"
+        }
+    }
+}
